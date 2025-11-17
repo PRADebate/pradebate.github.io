@@ -1,0 +1,22 @@
+* {
+background-color: black;
+}
+
+.container {
+  display: flex; /* Makes the container a flex container */
+}
+
+.box {
+  flex: 1; /* Allows boxes to grow and shrink equally */
+  padding: 20px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.prop {
+  color: lightgreen;
+}
+
+.opp {
+  color: red;
+}
